@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box sizing-- tamaño de la caja
+       border-box ----borde de caja  */
+    box-sizing: border-box; 
+}
+
+.form_account {
+    width: 350px;
+    background: rgb(164, 238, 232);
+    /* el padding permite que las filas esten ordenadas y no es neceario utilizar <br> */
+    padding: 30px;
+    margin: auto; 
+    margin-top: 60px;
+    font-family: calibri;
+    font-size: 15px ;
+    color: black;
+}
+
+.form_account h1 {
+    font-family: Calibri;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+.controls {
+    background: white;
+    color: black;
+    padding: 8px;
+    font-size: 10px;
+    width:100%; 
+    border-radius: 2px;
+    margin-bottom: 12px;
+    font-family: Calibri, Calibri;
+    border: 1px solid gray;
+}
+#mensaje{
+    width:100%;
+    font-size: 10px;
+    padding: 18px;
+    margin-bottom:20px
+}
+
+.genero{
+    margin-bottom:20px;
+    background-color:black;
+   
+}
+
+.opciones{
+    margin-bottom: 12px;
+}
+
+.select {
+    width: 95%;
+    margin-bottom: 20px;
+    padding: 2px;
+    
+}
+.suscrib{
+    margin-bottom: 12Px;
+}
+.botons{
+    width: 40%;
+    text-align: center;
+    padding: 5px; 
+    margin: 10px 0;
+    background:blue;
+    color: white;
+    font-size: 15px;
+    border:none;
+     
+} 

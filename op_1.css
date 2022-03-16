@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box sizing-- tamaño de la caja
+       border-box ----borde de caja  */
+    box-sizing: border-box; 
+}
+
+.form_account {
+    width: 320px;
+    background: rgb(226, 219, 219);
+    /* el padding permite que las filas esten ordenadas y no es neceario utilizar <br> */
+    padding: 40px;
+    margin: auto;
+    margin-top: 150px;
+    font-family: calibri;
+    font-size: 5px ;
+    color: white;
+}
+
+.form_account h1 {
+    font-family: Calibri;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    margin-bottom: 8px;
+}
+.form_account h2 {
+    font-size: 15px;
+    font-family: calibri;
+    text-align: center;
+    margin-bottom:20px;
+    color: rgb(78, 75, 75)
+}
+
+.controls{
+    width:100%;
+    background: white;
+    padding: 14px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid gray;
+    font-family: Calibri;
+    font-size: 15px;    
+}
+
+.botons{
+    width: 40%;
+    text-align: center;
+    padding: 8px;
+    margin: 12px 0;
+    background-color:green;
+    border-radius: 2px;
+    border: 1px solid green;
+    font-size: 12px;
+    color: white;
+    
+}

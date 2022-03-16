@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario_opcion1</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="op_2.css" type="text/css">
+</head>
+<body>
+    <section class="form_account"> 
+    
+        <h1>Sing Up</h1>
+            <!-- realizando validaciones utilizando required -->
+        <form>
+            <b> 
+            <label for="first name">First Name </label>
+            <input class="controls" type="text" name="first name" id="fisrt name" placeholder="" required maxlength="6">
+            <label for="age">Age</label>
+            <input class="controls" type="number"  name="age" id="age" placeholder="" required min="18" max="65"  >
+            <label for="income">Income</label>
+            <input class="controls" type="text" name="income" id="icome" placeholder="" required maxlength="6"> 
+            <label for="more info">More Info</label>
+            <input class="mensaje"type="text" name="more info" id="mensaje" required maxlength="6">
+            <br>
+            
+            <label for="gender">Gender</label>
+            <br>
+            <input class="genero" type="radio" name="gender" value="M" id="male"> Males 
+            <input class="genero" type="radio" name="gender" value="F" id="Female"> Female 
+            <input class="genero" type="radio" name="gender" value="ND" id="trans"> Trans
+            <br>
+            <label>Plan</label>
+                    <br>
+            <select class="select" name="select">
+                    <option>Select Plan</option>
+                    <option value="value2">plan A</option>
+                    <option value="value3">plan B</option>
+            </select>
+            <br>
+            <input class="suscrib" type="checkbox" value="sucribete">Suscribe to Newsletter
+            <br>
+            </b>
+            <input class="botons" type="submit" value="Update"></input>
+        
+        </form>
+    </section>
+
+</body>
+</html>
